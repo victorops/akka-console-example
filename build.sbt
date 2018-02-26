@@ -2,7 +2,7 @@ name := "victorops-akka-repl"
 
 val ScalaVersion = "2.11.8"
 val AkkaVersion = "2.4.11"
-val Ammoniteversion = "0.7.8"
+val Ammoniteversion = "1.0.3"
 
 lazy val commonSettings = Seq(
   organization := "victorops",
