@@ -8,7 +8,7 @@ object ConsoleMain {
     val console = new Console(system)
 
     ammonite.Main(
-      predef =
+      predefCode =
         """
           |println("Loading the VictorOps Example Console!")
           |import console.imports._
